@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-action;login-with-valid-credentials" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features\login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit a login page" classname="login-action;login-with-valid-credentials" time="2.336">
+        </testcase>
+        <testcase name="When I fill the login form with valid credentials" classname="login-action;login-with-valid-credentials" time="0.277">
+        </testcase>
+        <testcase name="Then I should see the home page" classname="login-action;login-with-valid-credentials" time="0.029">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-action;try-to-login-with-invalid-credentials" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features\login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit a login page" classname="login-action;try-to-login-with-invalid-credentials" time="0.523">
+        </testcase>
+        <testcase name="When I fill the login form with &quot;fail-1&quot; and &quot;fail-1&quot;" classname="login-action;try-to-login-with-invalid-credentials" time="0.161">
+        </testcase>
+        <testcase name="Then I wait for 3 seconds" classname="login-action;try-to-login-with-invalid-credentials" time="3.018">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-action;try-to-login-with-invalid-credentials" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features\login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit a login page" classname="login-action;try-to-login-with-invalid-credentials" time="1.347">
+        </testcase>
+        <testcase name="When I fill the login form with &quot;fail-2&quot; and &quot;fail-2&quot;" classname="login-action;try-to-login-with-invalid-credentials" time="0.151">
+        </testcase>
+        <testcase name="Then I wait for 3 seconds" classname="login-action;try-to-login-with-invalid-credentials" time="3.006">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-action;try-to-login-with-invalid-credentials" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="features\login.feature">
+            </property>
+        </properties>
+        <testcase name="Given I visit a login page" classname="login-action;try-to-login-with-invalid-credentials" time="0.684">
+        </testcase>
+        <testcase name="When I fill the login form with &quot;fail-3&quot; and &quot;fail-3&quot;" classname="login-action;try-to-login-with-invalid-credentials" time="0.964">
+        </testcase>
+        <testcase name="Then I wait for 3 seconds" classname="login-action;try-to-login-with-invalid-credentials" time="3.002">
+        </testcase>
+    </testsuite>
+</testsuites>
