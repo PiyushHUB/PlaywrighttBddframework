@@ -1,10 +1,10 @@
 {
-  "name": "udemy-playwright-cucumber",
+  "name": "playwright-cucumber",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "C:/Users/piyus/Desktop/udemy-playwright-cucumber/node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
+    "test": "./node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
     "report": "node reporter.js",
     "junitreport": "type cucumber_report.json | npx cucumber-junit > reports/cucumber_report.xml"
   },
